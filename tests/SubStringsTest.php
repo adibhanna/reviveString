@@ -27,10 +27,7 @@ class SubStringsTest extends TestCase
             [ "abcd", [ "a", "b", "c", "d", "ab", "bc", "cd", "abc", "bcd", "abcd" ] ],
             [ "dbac", [ "d", "b", "a", "c", "db", "ba", "ac", "dba", "bac", "dbac" ] ],
             [ "ertk", [ "e", "r", "t", "k", "er", "rt", "tk", "ert", "rtk", "ertk" ] ],
-            [
-                "abcde",
-                [ "a", "b", "c", "d", "e", "ab", "bc", "cd", "de", "abc", "bcd", "cde", "abcd", "bcde", "abcde" ],
-            ],
+            [ "abcde", [ "a", "b", "c", "d", "e", "ab", "bc", "cd", "de", "abc", "bcd", "cde", "abcd", "bcde", "abcde" ] ],
         ];
     }
 }
