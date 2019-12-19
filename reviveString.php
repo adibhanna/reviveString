@@ -17,9 +17,10 @@ require_once './vendor/autoload.php';
 
 function reviveString(string $string, int $k): string
 {
-    $substring = new Substring();
-    $sub_strings = $substring->generate($string, strlen($string));
+    $substrings = new Substring();
+    $sub_strings = $substrings->generate($string, strlen($string));
 
+    // Make sure the array has unique values.
     $unique_strings = array_unique($sub_strings);
 
     // lexicographic sorting
