@@ -9,7 +9,7 @@ class SubStringsTest extends TestCase
      * @test
      * @dataProvider strings
      */
-    function it_calculates_all_unique_substrings_of_a_given_string($string, $expected)
+    function it_calculates_all_substrings_of_a_given_string($string, $expected)
     {
         $subString = new Substring;
 
